@@ -19,6 +19,7 @@
   "license": "BSD-3-Clause",
   "type": "module",
   "exports": "./lib/index.js",
+  "main": "./lib/index.js",
   "browser": {
     "./lib/crypto.js": "./lib/crypto-browser.js"
   },
@@ -27,14 +28,14 @@
   ],
   "dependencies": {
     "@noble/ed25519": "^1.6.0",
-    "base58-universal": "github:digitalbazaar/base58-universal#fix-esm",
-    "crypto-ld": "github:digitalbazaar/crypto-ld#convert-to-module",
+    "base58-universal": "github:lemoustachiste/base58-universal#fix-esm",
+    "crypto-ld": "github:lemoustachiste/crypto-ld#convert-to-module",
     "ed2curve": "^0.3.0",
     "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
-    "@digitalbazaar/ed25519-verification-key-2020": "github:digitalbazaar/ed25519-verification-key-2020#convert-to-module",
-    "@digitalbazaar/x25519-key-agreement-key-2019": "github:digitalbazaar/x25519-key-agreement-key-2019#convert-to-module",
+    "@digitalbazaar/ed25519-verification-key-2020": "github:lemoustachiste/ed25519-verification-key-2020#convert-to-module",
+    "@digitalbazaar/x25519-key-agreement-key-2019": "github:lemoustachiste/x25519-key-agreement-key-2019#convert-to-module",
     "c8": "^7.11.2",
     "chai": "^4.3.6",
     "cross-env": "^7.0.3",
